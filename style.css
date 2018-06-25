@@ -1,0 +1,117 @@
+body{
+    overflow: hidden;
+    background: linear-gradient(90deg, #21E3E3, #0453E8);
+}
+.navbar{
+    background: linear-gradient(90deg, #173F57, #40769F);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#admin{
+font-size: 50px;
+color:#49C2D8;
+}
+
+#admin:hover{
+    color:#81D7E6;
+    text-shadow: 1px 8px 40px #020202;
+}
+h1{
+    font-family: 'Luckiest Guy';
+}
+/*to change the size and style of side button icon*/
+.side-button{
+    margin-top: 280px;
+    font-size: 4em !important;
+    margin-left: -35px;
+    color:white;
+    opacity: 0.9;
+    border-radius: 55px;
+    background-color: #020202;
+    
+}
+
+/*to change the style for sidenav*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #182934;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181 !important;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Acme', sans-serif;
+
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1 !important; 
+    cursor:pointer !important;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.jumbotron{
+    width:90%;
+    height:80%;
+    margin: 25px 5%;
+    position:absolute;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: scroll;
+    
+}
+.tabcontent{
+    display:none;
+}
+h2{ 
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+
+}
+.terminal{
+    background-color:#172D39;
+    border-radius: 2%;
+}
+
+code{
+   color:white !important;
+   
+}
+
+pre{
+    margin-left: 50px !important;
+    text-align: left !important;
+    white-space: pre-line; 
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  
+}
+@media only screen and (max-width: 600px) {
+    pre{
+        margin-left: 5px !important;
+        text-align: left;
+        
+       }
+   
+}
+
